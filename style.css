@@ -1,0 +1,53 @@
+#center{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10%;
+    align-items: center;
+    color: blanchedalmond;
+    width: 61.5%;
+    margin-bottom: 15px;
+
+
+}
+
+#div-m{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.button{
+    width: 168px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: gray;
+    margin: 5px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 15px;
+
+}
+.result{
+    width: 168px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    margin: 5px;
+    background-color: gray;
+    font-size: larger;
+    font-weight: bold;
+
+}
+#erase{
+    width: 61.5%;
+    margin-left: 19.5%;
+    border-radius: 50px;
+    border: none;
+    padding: 5px;
+    background-color: gray;
+    font-size: larger;
+    font-weight: bold;
+}
