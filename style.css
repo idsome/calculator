@@ -1,54 +1,58 @@
-#center{
-    background-color: black;
-    height: 100px;
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 10%;
-    align-items: center;
-    color: blanchedalmond;
-    width: 61.5%;
-    margin-bottom: 15px;
-
-
-}
-
-#div-m{
+#main-div{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    
+    
+    
+}
+.calc-display{
+    background-color: rgb(121, 148, 81);
+    width: 49.8%;
+    height: 150px;
+    margin: 15px 0 0 0 ;
+    border: none;
+    box-shadow: 10px 10px 5px  gray;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+#main-table{
+    background-color: gray;
     width: 50%;
+    box-shadow: 10px 10px 5px  gray;
 }
 .button{
-    width: 168px;
+    background-color: rgb(92, 92, 92);
+    width: 165px;
     height: 100px;
-    border-radius: 50px;
     border: none;
-    background-color: gray;
-    margin: 5px;
-    font-size: larger;
-    font-weight: bold;
-    margin-top: 14px;
-
+    font-size: xx-large;
+    font-weight: bolder;
+    
 }
 .result{
-    width: 168px;
+    background-color:rgb(8, 104, 8);
+    width: 165px;
     height: 100px;
-    border-radius: 50px;
     border: none;
-    margin: 5px;
-    background-color: gray;
-    font-size: larger;
-    font-weight: bold;
-    margin-top: 14px;
+    font-size: xx-large;
+    font-weight: bolder;
+    
+    
 
 }
 #erase{
-    width: 61.5%;
-    margin-left: 19.5%;
-    border-radius: 50px;
+    background-color:rgb(94, 0, 0);
+    width: 404%;
+    height: 100px;
     border: none;
-    padding: 5px;
-    background-color: gray;
-    font-size: larger;
-    font-weight: bold;
+    font-size: xx-large;
+    font-weight: bolder;
+    
+
+}
+.operator{
+    background-color: rgb(150, 97, 0);
 }

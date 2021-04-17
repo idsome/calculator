@@ -11,43 +11,38 @@
     <link rel="stylesheet" href="style.css">
     <title>calculator</title>
 </head>
-<body style="background-color: rgb(53, 53, 53);">
-    <div class="container">
-        <div>
-            <form name="form" style="display: flex; justify-content: center; align-items: center;">
-                <input  class="calc-display" id="center" >
-            </form>
-            <table style="  width: fit-content;margin-left: 18%;">
-                <tr>
-                    <td><input type="button" value="7" class="button"></td>
-                    <td><input type="button" value="8" class="button"></td>
-                    <td><input type="button" value="9" class="button"></td>
-                    <td><input type="button" value="*" class="button"></td>
-                </tr>
-                <tr>
-                    <td><input type="button" value="4" class="button"></td>
-                    <td><input type="button" value="5" class="button"></td>
-                    <td><input type="button" value="6" class="button"></td>
-                    <td><input type="button" value="/" class="button"></td>
-                </tr>
-                <tr>
-                    <td><input type="button" value="1" class="button"></td>
-                    <td><input type="button" value="2" class="button"></td>
-                    <td><input type="button" value="3" class="button"></td>
-                    <td><input type="button" value="+" class="button"></td>
-                </tr>
-                <tr>
-                    <td><input type="button" value="." class="button"></td>
-                    <td><input type="button" value="0" class="button"></td>
-                    <td><input type="button" value="=" class="result"></td>
-                    <td><input type="button" value="-" class="button"></td>
-                </tr>
-                <tr>
-                    <tr><input type="button" value="c" id="erase"></tr>
-                </tr>
-            </table>
-        </div>
-
+<body class="container-fluid">
+    <div id="main-div">
+        <input  class="calc-display"  >
+        <table id="main-table">
+            <tr>
+                <td><input type="button" value="7" class="button"></td>
+                <td><input type="button" value="8" class="button"></td>
+                <td><input type="button" value="9" class="button"></td>
+                <td><input type="button" value="*" class="button operator"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" class="button"></td>
+                <td><input type="button" value="5" class="button"></td>
+                <td><input type="button" value="6" class="button"></td>
+                <td><input type="button" value="/" class="button operator"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" class="button"></td>
+                <td><input type="button" value="2" class="button"></td>
+                <td><input type="button" value="3" class="button"></td>
+                <td><input type="button" value="+" class="button operator"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="." class="button"></td>
+                <td><input type="button" value="0" class="button"></td>
+                <td><input type="button" value="=" class="result"></td>
+                <td><input type="button" value="-" class="button operator"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="c" id="erase"></td>
+            </tr>
+        </table>
     </div>
     
 </body>
